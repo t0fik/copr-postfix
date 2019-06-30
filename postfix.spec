@@ -55,7 +55,7 @@ Requires(preun): systemd
 Requires(postun): systemd
 Provides: MTA smtpd smtpdaemon server(smtp)
 
-Source0: ftp://ftp.porcupine.org/mirrors/postfix-release/official/%{name}-%{version}.tar.gz
+Source0: http://ftp.porcupine.org/mirrors/postfix-release/official/%{name}-%{version}.tar.gz
 Source1: postfix-etc-init.d-postfix
 Source2: postfix.service
 Source3: README-Postfix-SASL-RedHat.txt
